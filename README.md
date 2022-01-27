@@ -1,2 +1,0 @@
-# LWCTrainingJan2022
-.
