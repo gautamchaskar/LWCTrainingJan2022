@@ -1,0 +1,32 @@
+<template>
+    <div class="slds-box">
+        <lightning-card title="Parent" icon-name="standard:person_account">
+            <div class="slds-grid slds-wrap" onchildclick={handleChild}>
+                <div class="slds-col slds-size_4-of-12 slds-var-p-around_xxx-small">
+                    <lightning-card variant="Narrow">
+                        <div class="slds-p-horizontal_small">
+                            <p>Child 1 : {childOneSel}</p>
+                            <c-child-one></c-child-one>
+                        </div>
+                    </lightning-card>
+                </div>
+                <div class="slds-col slds-size_4-of-12 slds-var-p-around_xxx-small">
+                    <lightning-card variant="Narrow">
+                        <div class="slds-p-horizontal_small">
+                            <p>Child 1 : {childTwoSel}</p>
+                            <c-child-two></c-child-two>
+                        </div>
+                    </lightning-card>
+                </div>
+                <div class="slds-col slds-size_4-of-12 slds-var-p-around_xxx-small">
+                    <lightning-card variant="Narrow">
+                        <div class="slds-p-horizontal_small">
+                            <p>Child 1 : {childThreeSel}</p>
+                            <c-child-three></c-child-three>
+                        </div>
+                    </lightning-card>
+                </div>
+            </div>
+        </lightning-card>
+    </div>
+</template>

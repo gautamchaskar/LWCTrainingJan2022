@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Grand Parent" icon-name="standard:account">
+        <lightning-button variant="brand" label="Reset All" onclick={handleReset} slot="actions">
+        </lightning-button>
+        <div onchildclick={handleChild}>
+            {childCount}/3 selected
+            <c-parent-one></c-parent-one>
+        </div>
+    </lightning-card>
+</template>
